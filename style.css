@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+.topo{
+    border-bottom: 1px solid #d5d5d5;
+}
+.largura-limitada{
+    width: 800px;
+    margin: 0 auto;
+}
+.topo p{
+    font-size: 22px;
+    padding: 20px;
+    font-weight: bold;
+}
+h1, h2, h3{
+    margin: 0;
+}
+h3{
+    font-weight: bold;
+}
+.background-capa{
+    background-image: url('img/capa.jpg');
+    min-height: 500px;
+    background-size: cover;
+}
+.background-conteudo{
+    padding: 50px 20px;
+    text-align: right;
+}
+.conteudo{
+    padding: 50px 20px;
+}
+.img-conteudo{
+    width: 250px;
+    height: 180px;
+}
+span{
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.background-divisao{
+    padding: 50px 0;
+    text-align: center;
+    background-image: url('img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.background-divisao h3{
+    background-color: #fff;
+    font-size: 36px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
